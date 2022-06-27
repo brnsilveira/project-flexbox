@@ -16,7 +16,7 @@ ul li a {
 
 .flex-container {
     display: flex;
-    max-width: 992px;
+    max-width: 1440px;
     width: 100%;
     margin: auto;
 }
@@ -50,7 +50,7 @@ header .list-items {
 .presentation {
     height: 60vh;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .presentation .text-presentation {
@@ -81,7 +81,37 @@ header .list-items {
     font-size: 24px;
 }
 
+.about {
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.about .text-about {
+    color: #122A57;
+    height: 56px;
+}
 
+.about-title-rectangle {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.about-title-rectangle h2 {
+    line-height: 50px;
+    font-size: 36px;
+}
+
+.about-title-rectangle .rectangle {
+    background-color: #122A57;
+    width: 7px;
+    height: 57px;
+    margin-right: 8px;
+}
+
+.about .text-about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 570px;
+}
 
 
