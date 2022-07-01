@@ -109,9 +109,72 @@ header .list-items {
 }
 
 .about .text-about p {
+    color: #122A57;
     font-size: 18px;
+    font-weight: 400;
     margin-bottom: 20px;
     width: 570px;
 }
 
+#services {
+    flex-direction: column;
+    background-color: #122A57;
+    width: 1440px;
+    height: 642px;
+    margin-top: 94px;
+    margin-bottom: 104px;
+    padding-left: 225px;
+}
 
+#services-options {
+    display: flex;
+    align-items: flex-start;
+}
+
+#service-pacotes {
+    order: 1;
+    margin-right: 300px;
+}
+
+#service-hospedagem {
+    order: 2;
+    margin-right: 300px;
+}
+
+#service-roteiros {
+    order: 3;
+}
+
+.services-text {
+    margin-top: 76px;
+}
+
+.services-text h2, a, p {
+    color: #fff;
+    text-decoration: none;
+}
+
+.services-text h2 {
+    font-size: 48px;
+}
+
+.services-text p {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services-text a {
+    display: block;
+    font-size: 18px;
+    color: #122A57;
+    background-color: #fff;
+    width: 225px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-align: center;
+}
